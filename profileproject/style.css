@@ -1,0 +1,139 @@
+.btn-floating {
+  position: fixed;
+  right: 25px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  border: 0;
+  z-index: 9999;
+  color: white;
+  transition: 0.2s;
+}
+
+.btn-floating:hover {
+  width: auto;
+  padding: 0px 30px;
+  cursor: pointer;
+}
+
+.btn-floating span {
+  font-size: 16px;
+  margin-left: 5px;
+  transition: 0.2s;
+  line-height: 0px;
+  display: none;
+}
+
+.btn-floating:hover span {
+  display: inline-block;
+}
+
+.btn-floating:hover img {
+  margin-bottom: -3px;
+}
+
+.btn-floating.whatsapp {
+  bottom: 25px;
+  background-color: #34af23;
+  border: 2px solid #fff;
+}
+
+.btn-floating.whatsapp:hover {
+  background-color: #1f7a12;
+}
+
+.btn-floating.instagram {
+  bottom: 85px;
+  background: radial-gradient(
+      circle farthest-corner at 35% 90%,
+      #fec564,
+      transparent 50%
+    ),
+    radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
+    radial-gradient(
+      ellipse farthest-corner at 20% -50%,
+      #5258cf,
+      transparent 50%
+    ),
+    radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
+    radial-gradient(
+      ellipse farthest-corner at 60% -20%,
+      #893dc2,
+      transparent 50%
+    ),
+    radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+    linear-gradient(
+      #6559ca,
+      #bc318f 30%,
+      #e33f5f 50%,
+      #f77638 70%,
+      #fec66d 100%
+    );
+  border: 2px solid #fff;
+}
+
+.btn-floating.gmail {
+  bottom: 145px;
+  background-color: red;
+  border: 2px solid #fff;
+}
+
+@media (max-width: 576px) {
+  .btn-floating {
+    background-color: transparent;
+  }
+}
+
+#button {
+  background-color: #2c3457;
+}
+
+#button-des {
+  background-color: #2c3457;
+  width: 100%;
+}
+
+.navbar {
+  background-color: #2c3457;
+}
+
+.dark-mode {
+  background-color: #273036;
+}
+
+.dark-mode #navbar {
+  background-color: #273036;
+}
+
+.dark-mode #projects {
+  background-color: #607180;
+}
+
+.dark-mode #dark-mode {
+  color: #fff;
+}
+
+.dark-mode #card {
+  background-color: #607180;
+}
+
+.dark-mode #button {
+  background-color: #607180;
+}
+
+.dark-mode #button-des {
+  background-color: #607180;
+}
+
+.dark-mode #wave {
+  fill: #273036;
+}
+
+.dark-mode #deskripsi {
+  background-color: #798a98;
+}
+
+#judul {
+  margin-top: 70px;
+}

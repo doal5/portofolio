@@ -1,0 +1,345 @@
+/*
+Theme Name: Reboot Child
+Theme URI: https://wpshop.ru/themes/reboot
+Author: WPShop.biz
+Author URI: http://wpshop.biz/
+Template: reboot
+Version: 1.0.0
+*/
+
+/* Below you can add your CSS styles */
+/* Ниже Вы можете добавить свои CSS стили */
+
+
+.previous .archive_open{padding:0}
+
+/* рекламная строка на главной и над комментами */
+.main_bnr{font-size:.9em;text-align:center;background:#ebf1f8;padding:8px;border-radius:5px;margin:10px 0 20px 0}
+.main-br-tg{color:#0088cc}
+.main-br-tg:hover{cursor:pointer;color:#dd3333}
+.tgcmnts{margin-bottom:50px}
+
+/* телеграм в шапке и подвале */
+@media (max-width: 767px) {.site-header-inner .social-links {position: absolute;margin: 0;right: 60px;top: -9px}}
+@media (min-width: 576px) {.social-button {margin:0}}
+.site-header-inner .social-buttons--square .social-button{padding: 10px .1em}
+.site-header-inner .social-buttons--circle .social-button{line-height:1em}
+.social-links{text-align:unset}
+
+/* надпись что это бета-версия */
+.beta_prob{opacity:.7;font-size:.95em}
+
+/* табличка с основными параметрами модели */
+.tspecs{max-width:400px !important;font-size:.9em}
+.tspecs .tended{color:#dd3333}
+.tspecs th{font-weight:500}
+.tspecs td::first-letter{text-transform:uppercase}
+
+/* модели одной линейки на детальной странице */
+.similar_line{margin-bottom:-40px;margin-top:30px}
+.similar_line .post-card__thumbnail{margin-bottom:12px;-webkit-transition: all 0.3s-moz-transition:all 0.3s;transition: all 0.3s}
+.similar_line .post-card__thumbnail:hover{transform: scale(1.01) translate3d(0, 0, 0)}
+.zag_line{margin-top:30px}
+
+/* отступы рекламы */
+.b-r.b-r--after_site_content, .b-r.b-r--before_site_content{padding:0}
+.rbtop_bann{margin-top:-30px;margin-bottom:20px}
+.adsbygoogle{margin:30px 0}
+.rbtop_bann .adsbygoogle{margin:0}
+.entry-social{margin-top:40px}
+.rkl,.percentPointerClass{margin-bottom:30px}
+
+/* скрытие блока Адсенс если объявления в нём нет */
+ins.adsbygoogle[data-ad-status="unfilled"]{display: none !important}
+
+/* блок FAQ на странице модели */
+.faq_single{margin:40px 0}
+.faq_single .vopros{font-size:22px;font-weight:500;margin:30px 0 10px}
+
+/* отступы баннера перед комментами */
+.cmntban{margin-bottom:60px;margin-top:-20px}
+.comment-content a,.pseudo-clearfy-link{color:#507cab !important}
+.comment-content a:hover,.pseudo-clearfy-link:hover{color:#8cb1d7 !important}
+
+/* фикс флагов меню WP Rocket в паблике */
+#wpadminbar img{max-width:20px;padding-right:4px;line-height:10px}
+
+/* верхнее меню */
+.top-menu ul li{padding-left:10px;padding-right:10px}
+.menu-item-7655 a,.menu-item-7656 a,.menu-item-7655 span,.menu-item-7656 span{color:#fff !important;background:rgb(255, 134, 0);padding:3px 5px;border-radius:3px}
+.menu-item-7655 a:hover,.menu-item-7656 a:hover,.menu-item-7655 span:hover,.menu-item-7656 span:hover{color:#fff !important}
+
+@media (min-width: 1000px) and (max-width: 1200px) {.menu-item-2828,.menu-item-2827{display:none}.top-menu ul li{padding-left:10px;padding-right:10px}}
+
+/* раздел новых устройств на главной */
+.new_devices p{font-weight:300;color:#757575;text-align:center;margin-bottom:45px}
+.new_devices .new{margin-bottom:-50px;display:grid;grid-auto-flow:row dense;grid-gap:40px;grid-template-columns:repeat(auto-fit, minmax(160px, 1fr));-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;text-align:center}
+.new_devices .new div{position:relative;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;-ms-flex-preferred-size:0;flex-basis:0;max-width:100%}
+.new_devices .new div img{margin-bottom:15px;-webkit-transition: all 0.3s-moz-transition:all 0.3s;transition: all 0.3s;width:80%}
+.new_devices .new div img:hover{transform: scale(1.03) translate3d(0, 0, 0)}
+.new_devices .new div a{text-decoration:none;font-weight:500}
+.new a:hover,.sect_region a:hover{color:black}
+@media (max-width: 576px) {.new_devices .new {grid-template-columns: repeat(auto-fit, minmax(100px, 1fr))}}
+
+/* раздел новых статей на главной */
+.new_arts{padding-bottom:60px}
+.new_arts p{font-weight:300;color:#757575;text-align:center;margin-bottom:45px}
+.new_arts .new{margin:15px 0 0 0;display:grid;grid-auto-flow:row dense;grid-gap:35px;grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
+.new_arts .new div{position:relative;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;-ms-flex-preferred-size:0;flex-basis:0;max-width:100%}
+.new_arts .new div img{margin-bottom:12px;-webkit-transition: all 0.3s-moz-transition:all 0.3s;transition: all 0.3s;border-radius:6px}
+.new_arts .new div img:hover{transform: scale(1.01) translate3d(0, 0, 0)}
+.new_arts .new div a{text-decoration:none;font-weight:500}
+.new_arts .new_devices a:hover,.sect_region a:hover{color:black}
+@media (max-width: 576px) {.new_arts .new {grid-template-columns: repeat(auto-fit, minmax(180px, 1fr))}}
+
+/* страница загрузки */
+.load_page{text-align:center;padding-top:20px}
+.load_page p:first-child{margin-top:30px}
+.load_page .load_alert{font-weight:300;color:#757575}
+.load_page .load_rkl{margin:40px 0}
+.load_page .load_downl{color:#757575;font-weight: 300}
+.load_page .new_arts{padding-top:40px;text-align:left}
+.load_page .new_arts a{color:#333 !important}
+.load_page .mirrors span{margin:10px;}
+.load_page .load_speed{margin:40px 0;color:#dd3333}
+.load_page .load_alert{color:#757575;font-weight:300;margin:30px 0}
+
+.page-id-5291 .header-html-1,.page-id-5291 .wpml-ls-statics-footer,.page-id-5293 .header-html-1,.page-id-5293 .wpml-ls-statics-footer,.page-id-5298 .header-html-1,.page-id-5298 .wpml-ls-statics-footer,.page-id-5300 .header-html-1,.page-id-5300 .wpml-ls-statics-footer{display:none}
+.page-id-5291 .entry-title,.page-id-5293 .entry-title,.page-id-5298 .entry-title,.page-id-5300 .entry-title{text-align:center}
+
+#timer{color:#8CB1D7;font-weight:bold;margin-top:30px}
+
+/* toc */
+.table-of-contents{border:1px solid #F0F3F8;background:#fafafa;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;padding:15px 0 20px}
+.table-of-contents a{color:#1490C9;border-bottom:1px dashed rgba(102,102,102,0.5);text-decoration:none}
+.table-of-contents__list .level-1:before{font-size:14px}
+.table-of-contents__header{font-weight:400}
+
+/* фикс верхнего отступа ajax поиска в шапке */
+.asp_content p{font-size:17px;font-weight:bold;line-height: 25px}
+.asp_content p a:hover{color:#2b3648}
+.asp_showmore span{display:none}
+@media screen and (min-width: 1200px){div.asp_w.ajaxsearchpro.asp_non_compact{min-width:320px}}
+@media screen and (max-width: 1000px){div.asp_w.ajaxsearchpro.asp_non_compact{min-width:280px}}
+
+/* страница рубрики */
+.post-cards--vertical{text-align:center;padding-bottom:40px;padding-top:20px}
+.post-card--vertical{min-width: 150px !important}
+.post-card--vertical img{-webkit-transition: all 0.3s;-moz-transition: all 0.3s;transition: all 0.3s}
+.post-card--vertical img:hover{transform:scale(1.03) translate3d(0,0,0)}
+.post-card__thumbnail a:before{display:none}
+.post-card__comments{margin-left:10px;padding-left:1.4em;font-weight:500;font-size:.9em}
+.facetwp-template h1{margin-top:.8em}
+.facetwp-facet-brand{background:#fafafa;padding:15px 0 11px 25px}
+.facetwp-facet-brand div{display:inline-block}
+.facetwp-facet-brand div:not(:last-child){margin-right:30px}
+.facetwp-facet-brand .facetwp-counter{font-size:.75em;color:#757575}
+.facetwp-facet-sort_archive{position:absolute;right:20px;z-index:2;top:15px}
+.facetwp_archive{position:relative}
+.facetwp-facet-load_more{text-align:center}
+.facetwp-load-more{cursor:pointer}
+@media screen and (max-width: 1000px){@supports (display: grid) {.post-cards--vertical {grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));}}}
+@media screen and (max-width: 500px){@supports (display: grid) {.post-cards--vertical {grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));}}}
+@media (min-width: 576px){.post-card--horizontal{max-width:1100px}}
+
+/* фикс стандартных настроек */
+.section-block__header{justify-content:center;text-align:center}
+.widget{margin-bottom:1rem}
+.page img{border-radius:5px}
+.page .alignleft{margin-right:1.4em;margin-top:.4em}
+@media screen and (max-width: 768px){.section-block__title{margin-right:0}.section-block, .section-html{padding-top:40px;padding-bottom:40px}}
+@media screen and (min-width: 500px){.entry-image--full, .entry-image--fullscreen, .entry-image--wide{min-height:300px}}
+@media screen and (min-width: 768px){.entry-image--full, .entry-image--fullscreen, .entry-image--wide{min-height:400px}}
+@media screen and (min-width: 1000px){.entry-image--full,.entry-image--fullscreen,.entry-image--wide{min-height:500px}}
+@media screen and (min-width: 1200px){.entry-image--full,.entry-image--fullscreen,.entry-image--wide{min-height:610px}}
+
+/* стандартное на детальной странице */
+.post .social-buttons span{background:#fafafa;border-radius:3px;margin-left:5px}
+.post .social-buttons span:hover{opacity:.8}
+.post .social-buttons span:first-child{margin-left:0}
+.post .entry-meta{padding:5px 0 0}
+.post .entry-label{display:contents;color:#757575}
+.post .entry-date{padding-left:28px;flex:0 0 100%;max-width:100%}
+.post .entry-date:before{font-size:1.1em}
+.entry-content h2{line-height:1.5em}
+.entry-content mark{background-color:#ffeadf;border-radius:5px;padding:3px 8px}
+.entry-content p{margin:1em 0}
+.entry-content table{margin:.5em 0 1.5em 0;border:1px solid #eaf0f7}
+.entry-content table td{border:1px solid #eaf0f7}
+.entry-content table th{background:#f5f5f5;border:1px solid #eaf0f7;white-space:nowrap}
+.entry-content ul li:before,.entry-content ol li:before{left:12px !important}
+.entry-content .flag_region{display:flex;flex-wrap:wrap;width:100%;gap:3rem;margin-top:40px}
+.entry-content .flag_region div{text-align:center;font-size:.95em;font-weight:300}
+.entry-content .flag_region img{margin-bottom:8px;width:70px;border-radius:5px;opacity:.8;border:1px solid #f1f1f1;-webkit-transition: all 0.3s-moz-transition:all 0.3s;transition:all 0.3s}
+.entry-content .flag_region img:hover{transform: scale(1.03) translate3d(0, 0, 0)}
+.entry-content .wp-caption-text{font-size:.85em}
+.sidebar-none .entry-meta{margin-bottom:10px}
+.entry-image--wide{margin-top:20px;border-radius:5px}
+.entry-content ol:not([class])>li:before{font-weight:normal}
+.related-posts .post-card__thumbnail{margin-bottom:12px;-webkit-transition: all 0.3s-moz-transition:all 0.3s;transition: all 0.3s}
+.related-posts .post-card__thumbnail:hover{transform: scale(1.01) translate3d(0, 0, 0)}
+@media screen and (min-width: 540px){.post .entry-image{float:right;margin-left:30px;text-align:center}}
+
+/* плагин на детальной странице */
+#China:before{background-image: url(/wp-content/uploads/flags/cn.svg)}
+#EEA:before{background-image: url(/wp-content/uploads/flags/eu.svg)}
+#Global:before{background-image: url(/wp-content/uploads/flags/mi.svg)}
+#India:before{background-image: url(/wp-content/uploads/flags/in.svg)}
+#Indonesia:before{background-image: url(/wp-content/uploads/flags/id.svg)}
+#Japan:before{background-image: url(/wp-content/uploads/flags/jp.svg)}
+#Russia:before{background-image: url(/wp-content/uploads/flags/ru.svg)}
+#Taiwan:before{background-image: url(/wp-content/uploads/flags/tw.svg)}
+#Turkey:before{background-image: url(/wp-content/uploads/flags/tr.svg)}
+#SKorea:before{background-image: url(/wp-content/uploads/flags/kr.svg)}
+.flag:before{content:"";display:inline-block;height:40px;width:53px;background-size:53px 40px;background-position: center;position:relative;top:8px;margin-right:15px;border-radius:5px;opacity:.8;border: 1px solid #f1f1f1}
+.roms {margin:0 0 30px 0;overflow:hidden}
+.roms dt{margin:0;width:150px;float:left;clear:both;text-align:right;padding-right:10px;font-weight:500;min-height:40px;font-size:.95em}
+.roms dt:after{content:":";margin-left:10px}
+.roms dd{margin:0 0 0 150px;min-height:40px;font-size:.95em}
+.roms h3{background:#f8f6f2;padding:10px 15px 8px;font-weight:500;margin:0 0 15px 0}
+.roms h3:not(:first-child){margin-top:30px}
+.roms .spoiler-box__title{padding:0}
+.roms .spoiler-box__body{margin: 20px 0 0 -154px}
+.roms .spoiler-box__body ul,.roms .spoiler-box__body ol{margin:15px 0 20px}
+.roms .spoiler-box__body ul:last-child,.roms .spoiler-box__body ol:last-child{margin-bottom:0}
+.roms .spoiler-box__body ul:last-child li,.roms .spoiler-box__body ol:last-child li{margin-bottom:5px}
+.roms .spoiler-box__body ul>li:before{top:.53em}
+.roms .spoiler-box__body p{font-weight:500;margin:0}
+.roms .spoiler-box__body p:after{content:':'}
+.end_text{margin-top:40px}
+.top_text span:first-child,.end_text span:first-child{text-transform:capitalize}
+.edl_numbers {color:#757575;font-size:.85em}
+
+/* информация eos на детальной странице */
+[tooltip]:after{position:absolute;font-size:15px;border-radius:.4rem;content:attr(tooltip);padding:.8rem;background:rgba(43, 54, 72, 0.8);-webkit-box-shadow:0 0 14px rgba(0, 0, 0, .1);box-shadow:0 0 14px rgba(0, 0, 0, .1);color:#fff;z-index:1;pointer-events:none;display:inline-block;opacity:0;visibility:hidden;-webkit-transition:all .4s;transition:all .3s;bottom:80%;left:50%;white-space:pre-wrap}
+[tooltip]:hover:after{display:block;opacity:1;visibility:visible;-webkit-transform:translate(-50%, -10px);transform:translate(-50%, -10px)}
+[tooltip].fit{cursor:help}
+[tooltip].fit:after{left:-12px;right:0;-webkit-transform:translate(10px, -10%);transform:translate(10px, -10%);white-space:normal;width:205px}
+.eos_top{background:rgba(255, 0, 0, 0.8);color:#fff;padding:4px 10px 2px 10px;border-radius:5px;font-size:.8em;display:inline-block;position:absolute;right:165px;margin-top:150px;line-height:1.5em;cursor:default;z-index:2}
+.eos_top .dot:after{content:"";-webkit-box-flex:0;-ms-flex:none;flex:none;display:inline-block;vertical-align:middle;height:16px;width:16px;background:url(/wp-content/uploads/icons/info.svg) no-repeat;margin:0 0 4px 5px}
+@media screen and (max-width: 540px){.eos_top{margin-top:-170px;right:unset;left:20px}}
+
+/* архив прошивок на детальной странице */
+.previous div{display:flex;flex-wrap:wrap;gap:0 1em;background:#f9fafc;margin-bottom:7px;width:100%}
+.previous div .version{font-weight:400;background:#f8f6f2;width:300px;padding:15px 0 15px 20px}
+.previous div span:not(:first-child){font-size:.84em;color:#757575;padding:15px 0;margin-left:20px}
+.previous div .version span{font-size:.84em;color:#757575;margin-left:0}
+.previous div .pseudo-link{font-size:1.15em}
+@media screen and (max-width: 1000px){.previous div span:first-child{width:100%}}
+@media screen and (max-width: 540px){ .previous br {display:none} }
+
+/* шапка */
+.header-html-2{min-width:300px}
+.home .header-html-2 .asp_w_container{display:none}
+.site-header{box-shadow:none}
+.header-html-1{padding:0;width:42px;z-index:9999;margin-top:-4px}
+@media (max-width: 767px){.header-html-1{position:absolute;margin:0;right:20px;top:0;margin-top:-4px}}
+
+/* шапка меню языков */
+.wpml-ls-legacy-dropdown{font-size:.8em}
+.wpml-ls-legacy-dropdown a.wpml-ls-item-toggle{padding-top:10px;padding-right:10px}
+.wpml-ls-legacy-dropdown .wpml-ls-sub-menu,.wpml-ls-legacy-dropdown a{border:unset;background:unset}
+.wpml-ls-legacy-dropdown .wpml-ls-sub-menu a{background:#ebf1f8;border-bottom:4px solid #ebf1f8;border-top:4px solid #ebf1f8}
+.wpml-ls-legacy-dropdown>ul{padding-top:3px}
+.wpml-ls-legacy-dropdown .wpml-ls-current-language:hover > a,.wpml-ls-legacy-dropdown a:focus,.wpml-ls-legacy-dropdown a:hover{background:#ebf1f8}
+.wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:after{display:none}
+
+/* секция таблицы на главной */
+.one_sect:before{border-bottom-right-radius:600px 20px;border-bottom-left-radius:600px 20px}
+.one_sect h1{text-align:center}
+.one_sect p{color:#757575;font-weight:300;padding-top:15px;padding-bottom:25px;text-align:center}
+.one_sect .asp-try{text-align:left;padding:0;padding-top:0;font-size:15px}
+.one_sect .asp-try a{text-decoration:none;border-bottom:1px dashed rgba(117, 117, 117, 0.797);line-height:15px;opacity:.9}
+.section-html__body .sect_tbl {font-size:.9em;border-radius:5px;box-shadow: 0 0 2px 0 rgb(0 0 0 / 10%);-moz-box-shadow: 0 0 2px 0 rgba(0,0,0,.10);-webkit-box-shadow: 0 0 2px 0 rgb(0 0 0 / 10%);-o-box-shadow: 0 0 2px 0 rgba(0,0,0,.10);-ms-box-shadow: 0 0 2px 0 rgba(0,0,0,.10);margin-bottom:-210px}
+.section-html__body h1{margin-top:-20px}
+.sect_tbl table{width:100%}
+.sect_tbl table tr td{padding:15px}
+.sect_tbl table tr th{padding:10px 14px;background:#f8f6f2}
+.sect_tbl table tr th:first-child {border-radius:5px 0 0 0}
+.sect_tbl table tr th:last-child {border-radius:0 5px 0 0}
+.sect_tbl table tr:last-child td:first-child{border-radius: 0 0 0 5px}
+.sect_tbl table tr:last-child td:last-child{border-radius: 0 0 5px 0}
+.sect_tbl table tr:not(:last-child){border-bottom:1px dashed #f8f6f2}
+.sect_tbl tbody tr{background:#fff}
+tbody tr:hover{background:#fafafa}
+.sect_tbl table a{color:#507cab}
+.sect_tbl table a:hover{color:#dd3333}
+@media screen and (min-width: 1200px){.one_sect p,.sect_region p,.model_sect p,.faq_sect p,.new_devices p{padding-left:80px;padding-right:80px}.sect_tbl table tr td:first-child,.sect_tbl table tr th:first-child{padding-left:40px}.wpml-ls-legacy-list-horizontal{border:none;padding:0}}
+
+/* секция с 4 блоками на главной */
+.two_sect .section-html__body{display:flex;flex-wrap:wrap;width:100%;gap:2rem;margin:180px 0 10px 0}
+.two_sect .sect_block{flex: 1 1 calc((100% / 2) - 2rem)}
+.two_sect h2{font-size:1.25em;font-weight:400}
+.two_sect p{font-weight:300;color:#757575}
+.flat_finger,.flat_cloud,.flat_world,.flat_tablet{position:relative;padding-left:70px}
+.two_sect .flat_finger:before{content: url('/wp-content/uploads/icons/fingerprint.svg');position:absolute;left:0;top:6px}
+.two_sect .flat_cloud:before{content: url('/wp-content/uploads/icons/cloud.svg');position:absolute;left:0;top:6px}
+.two_sect .flat_world:before{content: url('/wp-content/uploads/icons/world.svg');position:absolute;left:0;top:6px}
+.two_sect .flat_tablet:before{content: url('/wp-content/uploads/icons/tablet.svg');position:absolute;left:0;top:6px}
+@media screen and (max-width: 1000px){.two_sect .sect_block{flex: 1 1 100%}}
+
+/* секция с моделями на главной */
+.model_sect .modblock{display:flex;flex-wrap:wrap;width:100%;gap:2rem;margin-top:40px}
+.model_sect .modblock div{flex: 1 1 calc((100% / 3) - 2rem)}
+.model_sect p{font-weight:300;color:#757575;text-align:center}
+.model_sect h3{font-size:1.1em;font-weight:400;padding-left:85px;margin-bottom:6px}
+.model_sect a{color:#507cab}
+.model_sect .modblock div p{text-align:left;padding:0 0 0 85px}
+.model_sect .miui_12:before{content: url('/wp-content/uploads/img/mi-logo.svg');opacity:.8;position:absolute;margin-top:-5px}
+.model_sect .miui_13:before{content: url('/wp-content/uploads/img/miui-13.svg');opacity:.8;position:absolute;margin-top:-5px}
+.model_sect .miui_14:before{content: url('/wp-content/uploads/img/miui-14.svg');opacity:.8;position:absolute;margin-top:-5px}
+.model_sect .hyperos_1:before{content: url('/wp-content/uploads/img/hyperos-1.svg');opacity:.8;position:absolute;margin-top:-5px}
+.model_sect .android_11:before{content: url('/wp-content/uploads/img/android-11-logo.svg');opacity:.8;position:absolute;margin-top:-5px}
+.model_sect .android_12:before{content: url('/wp-content/uploads/img/android-12-logo.svg');opacity:.8;position:absolute;margin-top:-5px}
+.model_sect .android_13:before{content: url('/wp-content/uploads/img/android-13-logo.svg');opacity:.8;position:absolute;margin-top:-5px}
+.model_sect .android_14:before{content: url('/wp-content/uploads/img/android-14-logo.svg');opacity:.8;position:absolute;margin-top:-5px}
+.model_sect .android_15:before{content: url('/wp-content/uploads/img/android-15-logo.svg');opacity:.8;position:absolute;margin-top:-5px}
+
+/* секция табов на главной */
+.tabs_sect .section-html__body{display:flex;flex-wrap:wrap;gap:1rem 3rem}
+.tabs_sect .tabsec:nth-child(1) {flex: 1 1 calc(50% - 3rem)}
+.tabs_sect .tabsec:nth-child(2) {flex: 1 1 45%}
+.tabs_sect .tabs{margin-top:30px}
+.tabs_sect img{margin:50px 0 -50px 0}
+.tabs_sect a{color:#507cab}
+.tabs_sect a:hover{color:#dd3333}
+.tabs>input[type="radio"],.tabs>div{display:none}
+#tab-btn-1:checked~#tab-1,#tab-btn-2:checked~#tab-2{display:block}
+.tabs>label{display:inline-block;user-select:none;cursor:pointer}
+.tabs input:checked + label{color:#507cab}
+.tabs input:not(:checked) + label{color:#8cb1d7;border-bottom:1px dashed #8cb1d7;font-weight:300}
+.tabs h2{padding-top:20px}
+.tabs p{font-weight:300;color:#757575}
+.tabs span{color:#757575;padding:0 5px}
+@media screen and (max-width: 1000px){.tabs_sect img{margin-top:0;margin-bottom:-40px}}
+
+/* секция регионов на главной */
+.sidebar-none .section-preset--bgc-3:before{background:#f9fafc}
+.sect_region p{font-weight:300;color:#757575;text-align:center}
+.sect_region .flag_region{display:grid;grid-auto-flow:row dense;grid-gap:20px 8px;grid-template-columns:repeat(auto-fit, minmax(90px, 1fr));-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;text-align:center;margin-top:40px}
+.sect_region .flag_region div{text-align:center;font-size:.95em;font-weight:300;position:relative;-webkit-box-flex:1;-ms-flex-positive: 1;flex-grow: 1;-ms-flex-preferred-size:0;flex-basis:0;max-width:100%}
+.sect_region .flag_region a{text-decoration:none}
+.sect_region .flag_region img{margin-bottom:8px;width:75px;border-radius:5px;opacity:.8;border:1px solid #f1f1f1;-webkit-transition: all 0.3s-moz-transition:all 0.3s;transition:all 0.3s}
+.sect_region .flag_region img:hover{transform: scale(1.03) translate3d(0, 0, 0)}
+
+/* секция FAQ на главной */
+.faq_sect .section-html__body{display:flex;flex-wrap:wrap;width:100%;gap:2rem 4rem}
+.faq_sect .faq_block{flex: 1 1 calc((100% / 2) - 2rem);margin-bottom:30px}
+.faq_sect p{text-align:center;font-weight:300;color:#757575}
+.faq_sect h3{font-size:1.1em;font-weight:400;font-style:normal}
+.faq_sect a{color:#507cab}
+.faq_sect a:hover{color:#dd3333}
+.faq_sect .faq_block div{font-weight:300;color:#757575}
+@media screen and (max-width: 1000px){.faq_sect .faq_block{flex: 1 1 100%}}
+
+/* футер */
+.footer-info{font-weight:300;font-size:.9em}
+.bottom-logo{width:130px;opacity:.9}
+.footer-widgets{margin-bottom:0}
+.wpml-ls-legacy-list-horizontal.wpml-ls-statics-footer>ul{text-align:left !important}
+.wpml-ls-legacy-list-horizontal.wpml-ls-statics-footer>ul{margin:0 0 0 -17px !important}
+.clearfy-cookie-accept{border-radius:5px}
+
+
+.comment-form-comment a{color:#507cab;padding-bottom:30px}
+.comment-form-comment a:hover{color:#dd3333}
